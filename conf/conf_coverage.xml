@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<recordfiles>
+    <recordfile file="/home/webroot/taxi/osprey4/index.php">
+		<whitelist>
+            <path>/home/webroot/taxi/osprey4/controllers</path>
+            <path>/home/webroot/taxi/osprey4/models</path>
+		</whitelist>
+		<blacklist>
+            <path>/home/webroot/taxi/osprey4/libraries</path>
+		</blacklist>
+	</recordfile>
+</recordfiles>

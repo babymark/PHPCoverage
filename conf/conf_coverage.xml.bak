@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<recordfiles>
+  <recordfile file="/home/work/local/apache/htdocs/fp-api/index.php">
+    <whitelist>
+        <path>/home/work/dr-finance/libs/Finan/Api/</path>
+    </whitelist>
+    <blacklist>
+    </blacklist>
+  </recordfile>
+  <recordfile file="/home/work/local/apache/htdocs/fp-credit/index.php">
+    <whitelist>
+        <path>/home/work/dr-finance/libs/Credit/</path>
+    </whitelist>
+    <blacklist>
+    </blacklist>
+  </recordfile>
+  <recordfile file="/home/work/local/apache/htdocs/fp-mgr/index.php">
+    <whitelist>
+        <path>/home/work/dr-finance/libs/Finan/Mgr/</path>
+        <path>/home/work/dr-finance/libs/Finan/Biz/</path>
+        <path>/home/work/dr-finance/libs/Finan/Commons/</path>
+        <path>/home/work/dr-finance/libs/Baidu/</path>
+        <path>/home/work/dr-finance/libs/Base/</path>
+    </whitelist>
+    <blacklist>
+        <path>/home/work/dr-finance/libs/Finan/Biz/Account/Main.php</path>
+        <path>/home/work/dr-finance/libs/Finan/Biz/Payment/VipPayer.php</path>
+        <path>/home/work/dr-finance/libs/Finan/Biz/Transfer/ProductBalanceSponsor2.php</path>
+        <path>/home/work/dr-finance/libs/Finan/Biz/Transfer/ProductBalanceSponsor3.php</path>
+        <path>/home/work/dr-finance/libs/Base/Dao/User/Test.php</path>
+    </blacklist>
+  </recordfile>
+  <recordfile file="/home/work/local/apache/htdocs/fp-netpay/index.php">
+    <whitelist>
+        <path>/home/work/dr-finance/libs/Finan/Netpay/</path>
+        <path>/home/work/dr-finance/libs/Finan/Biz/Netpay/</path>
+    </whitelist>
+    <blacklist>
+    </blacklist>
+  </recordfile>
+  <recordfile file="/home/work/local/apache/htdocs/fp-marketing/index.php">
+    <whitelist>
+        <path>/home/work/dr-finance/libs/MP/</path>
+        <path>/home/work/dr-finance/libs/MPA/</path>
+        <path>/home/work/dr-finance/libs/FB/</path>
+    </whitelist>
+    <blacklist>
+        <path>/home/work/dr-finance/libs/MP/Conf/</path>
+        <path>/home/work/dr-finance/libs/MPA/Conf/</path>
+    </blacklist>
+  </recordfile>
+</recordfiles>
